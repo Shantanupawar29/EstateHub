@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+/* BUTTON HOVER */
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* CARD HOVER */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar links */
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border-radius: 6px;
+}
+h1{
+  color: #221e46;
+}
+ h2 {
+  color: #230f52;
+}
+h4{
+  color: #ffffff;
+}
+/* Smooth look */
+* {
+  box-sizing: border-box;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #1e3a5f;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin-top: 10px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
