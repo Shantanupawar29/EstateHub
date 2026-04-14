@@ -12,6 +12,7 @@ import CRM from "./pages/CRM";
 import Security from "./pages/Security";
 import Contact from "./pages/Contact";
 import AdminDashboard from "./pages/AdminDashboard";
+
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -32,11 +33,13 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <AnimatedRoutes />
-      <Footer />
-    </Router>
+    <div className="antialiased selection:bg-emerald-100 selection:text-emerald-900">
+      <Router>
+        <Navbar />
+        <AnimatedRoutes />
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
